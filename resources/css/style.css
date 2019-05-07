@@ -1,0 +1,94 @@
+header {
+    /* background: url("../../assets/GABE-70.jpg") no-repeat center;  */
+    /* Change back address of image */
+    background-size: 60% 60%;
+    background-color: #9a9a9c;
+    /* Change height back to 630px */
+}
+html, body {
+    padding:0px;
+    margin:0px;
+}
+body {
+    background-color:  #9a9a9c;
+}
+
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.header-container-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-image {
+    height: 50%;
+    width: 50%;
+}
+
+.header-text {
+    box-sizing: content-box;
+    color:#403F3A;
+    /* top:60%;
+    left:50%; */
+    margin: 0;
+    font-size: 5em;
+}
+
+.header-subtext {
+    font-size: 2em;
+}
+
+.header-sticky-container {
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    margin-left: 25%;
+    background-color:#9a9a9c;
+    width: 100%;
+}
+
+
+.nav-div {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
