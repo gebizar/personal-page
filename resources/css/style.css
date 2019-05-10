@@ -2,7 +2,6 @@ header {
     /* background: url("../../assets/GABE-70.jpg") no-repeat center;  */
     /* Change back address of image */
     background-size: 60% 60%;
-    background-color: #9a9a9c;
     /* Change height back to 630px */
 }
 html, body {
@@ -18,7 +17,7 @@ h1 {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-h2 {
+h2, li, section h1, section p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -34,33 +33,44 @@ h2 {
     width: 50%;
 }
 
+#section1-image {
+    /* height: 50%;
+    width: 50%; */
+}
+
+section h1 {
+    padding-left: 15px;
+}
+section p {
+    float: right;
+}
+
 .header-text {
     box-sizing: content-box;
     color:#403F3A;
-    /* top:60%;
-    left:50%; */
     margin: 0;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .header-subtext {
-    font-size: 2em;
+    font-size: 1em;
+    padding-left: 5px;
 }
 
 .header-sticky-container {
     position: -webkit-sticky;
     position:sticky;
     top: 0;
-    margin-left: 25%;
-    background-color:#9a9a9c;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 99 !important;
+    /* background-color:#9a9a9c; */
 }
 
 
 .nav-div {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
 }
 
 ul {
@@ -68,7 +78,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333333;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -77,6 +87,7 @@ ul {
 
 li {
     float: left;
+    font-size: 14px;
 }
 
 li a {
@@ -90,5 +101,42 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+    text-decoration: none;
+    color: white;
 }
 
+.nav-sections {
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+footer {
+    color: white;
+    background-color: #403F3A;
+    padding-left: 15px;
+}
+
+.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 1;
+  }
+
+section {
+    opacity: 0;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(-100px, 0px, 0px);
+    z-index: 1;
+}
+  
