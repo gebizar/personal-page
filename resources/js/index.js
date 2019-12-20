@@ -4,7 +4,8 @@ $(function() {
     $(".nav-sections").css({"margin-top": $(".header-sticky-container").height() / 4 + "px"})
     $(".header-text").css({"margin-left": $(".header-image").offset().left + "px"})
     $(".header-subtext").css({"margin-left": $(".header-image").offset().left + "px"})
-
+    resizeText();
+    var setfontSize = $(".header-image").width()  
 
     $('#main-nav li a').click(function(e) {
         var targetHref = $(this).attr('href');
@@ -41,6 +42,21 @@ $(function() {
             }
         })
     });
+
+    function resizeText() {
+        console.log($(window).width())
+        var picWidth = $(".header-image").width()
+        console.log("Pic Width", picWidth);
+        var resizeText = Math.round(picWidth / (960 / 50)) + "px";
+        var resizeSubtext = Math.round(picWidth / (960 / 30)) + "px";
+        console.log(resizeText);
+        $(".header-text").css({"font-size": resizeText}) 
+        $(".header-subtext").css({"font-size": resizeSubtext})
+    }
+
+    $(window).resize(resizeText);
+
+   
 
     
 });
