@@ -1,10 +1,12 @@
 $(function() {
     $(".nav-div").css({"width": $(".header-image").width() + 'px'}).css({"margin-left": $(".header-image").offset().left + "px"})
-    $(".header-sticky-container").css({"margin-top": -$(".header-sticky-container").height() + "px"});
+    // $(".header-sticky-container").css({"margin-top": -$(".header-sticky-container").height() + "px"});
     $(".nav-sections").css({"margin-top": $(".header-sticky-container").height() / 4 + "px"})
     $(".header-text").css({"margin-left": $(".header-image").offset().left + "px"})
     $(".header-subtext").css({"margin-left": $(".header-image").offset().left + "px"})
     resizeText();
+    $(".header-sticky-container").css({"margin-top": -$(".header-sticky-container").height() + "px"});
+
     var setfontSize = $(".header-image").width()  
 
     $('#main-nav li a').click(function(e) {
