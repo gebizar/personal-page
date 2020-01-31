@@ -13,11 +13,11 @@ body {
 }
 
 
-h1 {
+h1, h2, h3 {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-h2, li, section h1, section p {
+li, section h1, section p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -33,15 +33,23 @@ h2, li, section h1, section p {
     width: 50%;
 }
 
-#section1-image {
-    width: 100%
+#section-image {
+    width: 100%;
 }
 
-section h1 {
-    padding-left: 15px;
-}
+/* section h1 {
+    padding-left: 5px;
+} */
 section p {
     float: right;
+}
+
+div section {
+    padding-top: 10px;
+}
+
+div section:first-child {
+    padding-top:0px;
 }
 
 .header-text {
@@ -140,4 +148,18 @@ section {
     transform: translate3d(-100px, 0px, 0px);
     z-index: 1;
 }
-  
+
+#main-content{
+    position: absolute;
+    overflow: scroll;
+  }
+
+footer {
+    padding-top: 15px;
+}
+
+a {
+    color: #cccccc;
+}
+
+
