@@ -12,15 +12,16 @@ body {
     background-color:  #9a9a9c;
 }
 
-
-h1, h2, h3 {
-    font-family: 'Julius Sans One', sans-serif;
-}
-
-li, section h1, section p {
+li, section h1, p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
+h1, h2, h3, .bottom-text p {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
 
 .row {
     margin-top: 20px;
@@ -83,7 +84,7 @@ div section:first-child {
     position: sticky;
 }
 
-ul {
+#main-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -95,12 +96,12 @@ ul {
     border-bottom-right-radius: 7px;
 }
 
-li {
+#main-nav li {
     float: left;
     font-size: 14px;
 }
 
-li a {
+#main-nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -109,10 +110,14 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#main-nav li a:hover {
     background-color: #111;
     text-decoration: none;
     color: white;
+}
+
+#section-4 {
+    margin-top: 2em;
 }
 
 .nav-sections {
@@ -162,5 +167,42 @@ footer {
 a {
     color: #cccccc;
 }
+
+a:hover {
+    color: #ffffff;
+    text-decoration: dashed underline;
+}
+
+.nav-sections h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-sections p {
+    padding-right: 3em;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.nav-sections div p {
+    font-size: 15px;
+    padding-right: 0em;
+    float: none
+}
+
+#section-3 div {
+    position: relative;
+    top: 1em;
+}
+
+#section-3 .row:not(:first-child) {
+    margin-top: 3em;
+}
+
+#footer-row {
+    padding: 0px 15px 5px 15px;
+}
+
+
 
 

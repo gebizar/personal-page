@@ -4,12 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Gabe Bizar</title>
-
-        <!-- Bootstrap (CDN) for styling -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat" rel="stylesheet">
-        <link rel="stylesheet" href="resources/css/style.css">
-
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="resources/css/style.css" rel="stylesheet" >
         <script src="resources/js/jquery-3.4.1.min.js"></script>
         <script src="resources/js/index.js"></script>
         <link rel="stylesheet" type="text/css" href="resources/css/flaticon.css" >
@@ -20,7 +18,7 @@
         <header>
             <div class="main-header-div">
                 <div class="header-container-image">
-                    <img class="header-image" src="assets/GABE-41.jpg" />
+                    <img class="header-image" alt="profile picture" src="assets/GABE-41.jpg" />
                 </div>
             </div>
         </header>
@@ -44,7 +42,7 @@
                     <h1>About Me</h1>
                     <div class="row">
                         <div class="col">
-                            <img class="rounded setimage section-image" src="assets/GABE-70.jpg" />
+                            <img class="rounded setimage section-image" alt="About me image" src="assets/GABE-70.jpg" />
                         </div>
                         <div class="col">
                             <h2>Hello!</h2>
@@ -56,9 +54,9 @@
                                 In addition to being in student leadership, having participated in many project teams through school and my internship in Intel has given me insight to aligning project visions between those of engineers, project managers,  
                                 and data scientists. My experience in having spent hours tirelessly coding and enthusiastically engaging with those that I've presented projects to (regardless of language) has culminated in my ability to bring visions to life on all fronts.    
                             </p>
-                            <spa>
-                                <h2> For further information, please see my <a href="https://docs.google.com/document/d/1lXq3MzAoxRQ2a2iDWNxzfnj6fjb3TYUuxEqWuxS9nfM/edit?usp=sharing"> resume </a> </h2>
-                            <span>
+                            <div class="bottom-text">
+                                <p> For further information, please see my <a href="https://docs.google.com/document/d/1lXq3MzAoxRQ2a2iDWNxzfnj6fjb3TYUuxEqWuxS9nfM/edit?usp=sharing"> resume </a> </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -66,7 +64,7 @@
                     <h1>Experience</h1>
                     <div class="row">
                             <div class="col-lg">
-                                <img class="rounded to-set"   src="assets/intel.jpg" />
+                                <img class="rounded to-set" alt="intel logo" src="assets/intel.jpg" />
                             </div>
                             <div class="col-lg">
                                 <h2> Intel; Nonvolatile Solutions Group (NSG) </h2>
@@ -79,14 +77,13 @@
                                     as well as develop a grasp on the inner machinations of the tech industry as a whole. 
                                     Although my skills as a web developer vastly improved over the course of this internship it has also opened my eyes to the number of possibilites in tech and has stirred in me an excitement to meet other likeminded individuals.
                                 </p>
-
                                 <p style="margin-top: 15px"> For more information feel free to email me with inquiries regarding this internship. I'd also be more than happy to consult anyone who is seeking an internship such as this one. </p>
                                 <p style="margin-top: 15px"> My supervisor during my time at Intel was Kathryn Carruthers, an absolute cornerstone in Intel and instrumental to how our team functioned. For more questions on her please refer to LinkedIn or feel free to email me. </p>
                             </div>
                     </div>
                     <div class="row" style="padding-top: 20px">
                             <div class="col-lg">
-                                <img class="rounded to-set" src="assets/RA.jpg" />
+                                <img class="rounded to-set" alt="image as an RA" src="assets/RA.jpg" />
                             </div>
                             <div class="col-lg">
                                 <h2> Resident Adviser </h2>
@@ -94,7 +91,7 @@
                                     Over the course of two years spent as a Resident Adviser, I think I've fully bolstered the skills of conflict mediation and bridging communities. In particular, I spent time in the dorms Mercer Court and Lander, both of which are specifically catered towards international students due to their availability over the Winter Break. My ability to speak Chinese has garnered testimonials in my ability to bridge the culture gap, ease tension, and build rapport with people, both domestic and international.
                                     In 2017, I achieved the "Dubs Up!" award, an granted to communtiy leaders at UW, of which only two were granted to our building staff of over 40. My love for interaction with all walks of life and strong social skills lead me to believe that I'm a strong candidate for any position that interacts with a diverse cast of occupations, origins, and creeds. From engineers to non-technical folks to the international and domestic, my life's mission is bridge communities and challenge people to achieve their best.
                                 </p>
-                                <p style="margin-top: 4em"> For more information regarding my time as an RA please feel free to contact me or my supervisor's Jeffrey Perkins or Amanda Roy via email or LinkedIn </p>
+                                <p style="margin-top: 4em"> For more information regarding my time as an RA please feel free to contact me or my supervisors, Jeffrey Perkins or Amanda Roy, via email or LinkedIn </p>
                             </div>
                     </div>
                 </section>
@@ -102,84 +99,87 @@
                     <h1>Projects</h1>
                     <div class="row">
                         <div class="col-3">
-                            <img class="rounded section-image" src="assets/entree_ai.png" />
+                            <img class="rounded section-image" alt="Entree AI Image" src="assets/entree_ai.png" />
                         </div>
                         <div class="col">
                             <h2>Entree.ai</h2>
                             <p>
-                                As a recent graduate of the University of Washington Information School, I strive to leverage my broad skillset to shape the ever-changing landscape of the tech-world. 
-                                Having been raised in Singapore, Taiwan, and the U.S., my diverse upbringing has strengthened my need to be inclusionary, and therefore bolster diversity in any community I belong to. 
-                                My want to bridge communities is further enforced, by my two-years as an resident adviser 
-                                in which I utilized Mandarin to engage with International Students and eventually incorporate them as part of the larger UW community.  
-                                In addition to being in student leadership, having participated in many project teams through school and my internship in Intel has given me insight to aligning project visions between those of engineers, project managers,  
-                                and data scientists. My experience in having spent hours tirelessly coding and enthusiastically engaging with those that I've presented projects to (regardless of language) has culminated in my ability to bring visions to life on all fronts.    
+                                My primary task on my Capstone Senior project was to implement a database for use with Google Home's so people could order intuitively, more sentence-like, than a typical option tree. I facilitated the creation of an API that double checked to see if menu items were in a restaurants database prior to confirming the order. In short, I created the backend to ensure that after the language was parsed the item even existed. It was intensely challenging and in conjunction with other developers using language parsing libraries such as spaCy, it really brought to light just how insanely difficult it is to work with language parsing.
                             </p>
-                            <span>
-                                <h2> If you'd like to see the project poster you can find it <a href="https://ischool.uw.edu/capstone/projects/2019/entreeai"> here </a> </h2>
-                                <h2> Homepage of the company that currently owns the tech can be found <a href="https://www.entree.ai/"> here </a> </h2>
-                            <span>
+                            <div class="bottom-text">
+                                <p> If you'd like to see the project poster you can find it <a href="https://ischool.uw.edu/capstone/projects/2019/entreeai"> here </a> </p>
+                                <p> Homepage of the company that currently owns the tech can be found <a href="https://www.entree.ai/"> here </a> </p>
+                                <p> Unfortunately at the end of the project since we had to hand it off to a company which still uses the tech, the code is not openly available, but I'd be willing to talk it about at length upon request </p>
+                            </div>
                         </div>
                     </div>      
                     <div class="row">
                         <div class="col-3">
-                            <img class="rounded section-image" src="assets/poker.png" />
+                            <img class="rounded section-image" alt="poker image" src="assets/poker.png" />
                         </div>
-                        <div class="col" style="padding-top: 15px">
+                        <div class="col" >
                             <h2>Headsup Poker</h2>
                             <p>
-                                As a recent graduate of the University of Washington Information School, I strive to leverage my broad skillset to shape the ever-changing landscape of the tech-world. 
-                                Having been raised in Singapore, Taiwan, and the U.S., my diverse upbringing has strengthened my need to be inclusionary, and therefore bolster diversity in any community I belong to. 
-                                My want to bridge communities is further enforced, by my two-years as an resident adviser 
-                                in which I utilized Mandarin to engage with International Students and eventually incorporate them as part of the larger UW community.  
-                                In addition to being in student leadership, having participated in many project teams through school and my internship in Intel has given me insight to aligning project visions between those of engineers, project managers,  
-                                and data scientists. My experience in having spent hours tirelessly coding and enthusiastically engaging with those that I've presented projects to (regardless of language) has culminated in my ability to bring visions to life on all fronts.    
+                                For my visualizations class I had to create a narrative/teaching piece to demonstrate a subject that I was personally interested in. I've always loved board games and poker ever since my grandfater taught me how to play and as a result we decided to showcase the statistics behind hands using React, Idyll, and JavaScript. We leveraged D3 and Tableau to find metrics that we thought were fun to showcase before implementation. All animations, all of the code, and the coordination as a team was my work. Enjoy and take a look at my poker animations! 
                             </p>
-                            <span style="position: relative; top: 2em">
-                                <h2> For the full visualization please visit the website I created <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </h2>
-                            <span>
+                            <div class="bottom-text">
+                                <p> For the full visualization please visit the website I created <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </p>
+                                <p> For the code and nitty-gritty please click <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </p>
+                            </div>
                         </div>
                     </div>      
                     <div class="row">
                             <div class="col-3">
-                                <img class="rounded section-image" src="assets/website.png" />
+                                <img class="rounded section-image" alt="website infographic" src="assets/website.png" />
                             </div>
-                            <div class="col" style="padding-top:15px">
+                            <div class="col" >
                                 <h2>This Website!</h2>
-                                <p> This website was developed as a testament to my abilities as a front-end developer and a more expansive, holsitic view of my resume. I initially wanted to create this website using a framework such as Angular or React, but recently read an article about the over-abundance of single-page websites that utilize frameworks (unncessary overhead;) or websites that needlessly use flowery, multi-page html that serve to detract from user experience. Everything that you see was handcoded, without the help of templates and was storyboarded prior to development for flow and ease. If you have any questions on how I developed this website or would like to look at the source code, feel free <a>here</a> </p>
-                                <span style="position: relative; top: 2em">
-                                    <h2> For the full visualization please visit the website I created <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </h2>
-                                <span>
+                                <p> This website was developed as a testament to my abilities as a front-end developer and a more expansive, holsitic view of my resume. I initially wanted to create this website using a framework such as Angular or React, but recently read an article about the over-abundance of single-page websites that utilize frameworks (unncessary overhead;) or websites that needlessly use flowery, multi-page html that serve to detract from user experience. Everything that you see was handcoded, without the help of templates and was storyboarded prior to development for flow and ease. If you have any questions on how I developed this website or would like to look at the source code, feel free. </p>
+                                <div class="bottom-text">
+                                    <p> For the code on how to make this exact website <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </p>
+                                </div>
                             </div>
                         </div>  
                         <div class="row">
                                 <div class="col-3">
-                                    <img class="rounded section-image" id="section-image " src="assets/discord.png" />
+                                    <img class="rounded section-image" alt="discord logo" src="assets/discord.png" />
                                 </div>
                                 <div class="col">
                                     <h2>Dungeons and Dragons Starter Discord Bot</h2>
                                     <p>
-                                        As a recent graduate of the University of Washington Information School, I strive to leverage my broad skillset to shape the ever-changing landscape of the tech-world. 
-                                        Having been raised in Singapore, Taiwan, and the U.S., my diverse upbringing has strengthened my need to be inclusionary, and therefore bolster diversity in any community I belong to. 
-                                        My want to bridge communities is further enforced, by my two-years as an resident adviser 
-                                        in which I utilized Mandarin to engage with International Students and eventually incorporate them as part of the larger UW community.  
-                                        In addition to being in student leadership, having participated in many project teams through school and my internship in Intel has given me insight to aligning project visions between those of engineers, project managers,  
-                                        and data scientists. My experience in having spent hours tirelessly coding and enthusiastically engaging with those that I've presented projects to (regardless of language) has culminated in my ability to bring visions to life on all fronts.    
+                                        I created a Dungeons and Dragons bot that can post in your discord channel good starting materials to get any campaign and new players acquainted.
+                                         I found that the embedded links and single source for all the websites/pdfs in one 
+                                         spot made for a aesthetically pleasing and intuitive experience for anyone in the channel to 
+                                         learn and love the game as much as I do.
                                     </p>
-                                    <span style="position: absolute; bottom: 0">
-                                        <h2> For the full visualization please visit the website I created <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </h2>
-                                    <span>
+                                    <div class="bottom-text">
+                                        <p> For the full visualization please visit the website I created <a href="https://idyll.pub/post/app-1476f588c5999f5c7896477a/"> here </a> </p>
+                                        <p> The code for this project can be found <a href="github.com/gebizar"> HERE</a> </p>
+                                    </div>
                                 </div>
                             </div>                                           
                 </section>
                 <section id="section-4">
                     <h1>Accomplishments</h1>
-                    <p>Aliquid aliquam magnam ducimus similique obcaecati, unde exercitationem laborum incidunt, quas in ipsum inventore nostrum? Blanditiis optio cumque earum iste odio! Alias sint accusamus repudiandae.</p>
+                    <h2> University </h2>
+                    <ul>
+                        <li> Dubs Up! Award for Exceptional Residential Service </li>
+                        <li> Recipient of the Data Science Track, which less than 20% of Informatics Students Achieved </li>
+                    </ul>
+                    <h2> High School </h2>
+                    <ul> 
+                        <li> Section Leader and Lead Snare in the Bothell Marching Band</li>
+                        <li> Rhythm Section Leader and Soloist, BHS Jazz Quartet </li>
+                        <li> President's Accomplishments Award, 2014 Bothell High School</li>
+
+                    </ul>
+                    <p> Languages Fluent: English, Mandarin </p>
                 </section>
             </div>
         </div>
         <footer id="section-5">
             <div>
-                <div class="row" >
+                <div id="footer-row" class="row">
                     <div class="col-5" > 
                         <h1> Let's Connect </h1>
                         <div class="col">
@@ -189,7 +189,7 @@
                                             <i class="flaticon-icon-70562"></i>      
                                         </div>
                                         <div class="col">                           
-                                            <a href="mailto: gabebizar@gmail.com"> gabebizar@gmail.com </a> 
+                                            <a href="mailto:gabebizar@gmail.com"> gabebizar@gmail.com </a> 
                                         </div>
                                     </div>
                                     <div class="col row">   
@@ -222,19 +222,19 @@
                             </div>
                             
                     </div>
-                    
-                </div> 
-                <div class="row">
-                    <div class="col-4 offset-8" style="padding-right:30px">
-                        <div style="text-align:right">Icons made by 
-                            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-                                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                    <div class="col-6 offset-1">
+                        <div id="footer-trademark" style="text-align: right">
+                            <div >Icons made by 
+                                <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                            </div>
+                            <p>
+                                &copy;2019 - 2020 Footer
+                            </p>
                         </div>
-                        <p style="text-align: right">
-                            &copy;2019 - 2020 Footer
-                        </p>
                     </div>
-                </div>
+                </div> 
+                
                 
             </div>
         </footer>

@@ -10,7 +10,7 @@ $(function() {
 
     var imageSize = $(".setimage").width()  
     $(".to-set").css({"width": imageSize + "px"});
-    $(".nav-sections").css({"margin-bottom": $("footer").height()});
+    $("#footer-trademark").css({"margin-top": $("#footer-trademark").parent().height() - $("#footer-trademark").height()});
 
     $('#main-nav li a').click(function(e) {
         var targetHref = $(this).attr('href');
